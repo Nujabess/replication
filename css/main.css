@@ -1,0 +1,193 @@
+/*================Resets==============*/
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans' sans-serif;
+}
+
+ul{
+	list-style: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+button{
+	color: #fff;
+}
+
+/*================Global Classes==============*/
+.container{
+	width: 85%;
+	margin: 0 auto;
+}
+
+.row{
+	display: flex;
+}
+
+.center{
+	justify-content: center;
+}
+
+.coloumn{
+	display: flex;
+	flex-direction: column;
+}
+
+.split{
+	justify-content: space-between;
+}
+
+.coloumn-center{
+	align-items: center;
+}
+
+
+/*================Page Styles==============*/
+.header-img{
+	background: url(../img/header.jpg) no-repeat top;
+	background-size: cover;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.navbar{
+	padding-top: 25px;
+	font-weight: 400;
+	font-size: .7em;
+	color: #FFF;
+}
+
+.navbar ul li{
+	text-transform: uppercase;
+	margin: 0 15px;
+}
+
+.navbar img{
+	width: 33px;
+	height: 33px;
+}
+
+.header-text{
+	width: 50%;
+	margin-top: 75px;
+	margin-bottom: 261px;
+	color: #fff;
+}
+
+.header-text h1{
+	font-weight: 400;
+}
+
+.header-text button{
+	background: #2996CC;
+	height: 40px;
+	width: 210px;
+	border: none;
+	text-transform: uppercase;
+	border-radius: 4px;
+	margin: 15px 0;
+	font-weight: 400;
+}
+
+.header-text button:hover{
+	background-color: #2690C5;
+}
+
+.header-text a{
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: .7em;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+.header-text span{
+	font-weight: 300;
+	margin-left: 5px;
+	font-size: .7em;
+}
+
+.learn{
+	background-color: #FAFAFA;
+	width: 100%;
+}
+
+.learn img{
+	height: 78px;
+	width: 138px;
+	margin-left: 17%;
+	margin-top: 20px;
+	margin-right: 60px;
+	margin-bottom: 20px;
+	border: 1px solid #CFCFCF;
+}
+
+.learn .play-icon{
+	border: none;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	z-index: 3;
+	top: 20px;
+	left: 50px;
+
+}
+
+
+.learn p{
+	padding-top: 20px;
+	margin-top: 20px;
+	font-weight: 300;
+	font-size: .81em;
+}
+
+.learn a{
+	position: relative;
+	color: #2996CC;
+	font-size: .81em;
+
+} 
+
+.learn .arrow:after{
+	content: '>';
+	display: inline-block;
+	color:  #2996CC;
+	margin-left: 5px;
+}
+
+.learn img:hover{
+	border: 1px solid #2996CC;
+}
+
+.learn .play-icon:hover{
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
